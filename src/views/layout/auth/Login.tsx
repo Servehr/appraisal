@@ -65,7 +65,7 @@ export const Login = () =>
                             </div>
                             <div className="col-sm-7 col-md-6"></div>
                             <div className="col-sm-3 col-md-3">
-                                <a href='forgot' className="w-100" style={{fontWeight: 'bold', fontSize: '14px', marginTop: '20px'}} onClick={() => navigate('/forgot')}>forgot password</a> 
+                                <a href='forgot' className="w-100" style={{fontWeight: 'bold', fontSize: '14px', marginTop: '20px'}} onClick={() => navigate('#/forgot')}>forgot password</a> 
                             </div>
                         </div>
 
