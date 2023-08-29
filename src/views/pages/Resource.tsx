@@ -70,7 +70,7 @@ export const Resource = () =>
                             resources.resource.map((rsur: any, index: number) => {
                                 let clax:string = `bi bi-${rsur.icon} col-md-1 float-end`
                                 return <div className="col-6 col-md-3" style={{paddingRight: '8px', paddingLeft: '8px', position: 'relative'}} key={index}>
-                                            <a href='files'>
+                                            <a href='#/files'>
                                                 <div className="card info-card revenue-card flex">
                                                     <div className="card-body">
                                                         <h4 className="card-title" style={{marginBottom:'5px', fontSize: '14px'}}>{rsur.text}</h4>

@@ -94,16 +94,16 @@ export const Performance = () =>
                                 {
                                     performance.folders.map((folder, index) => {
                                         return  <tr key={index}>
-                                            <td scope="row"><a href='answers'>{folder.id}</a></td>
-                                            <td><a href="answers">{folder.folder}</a></td>
-                                            <td><a href="answers">{folder.totalAttempt}</a></td>
-                                            <td><a href="answers">{folder.published}</a></td>
-                                            <td><a href="answers">{folder.staffElapsed}</a></td>
-                                            <td><a href="answers">{folder.managerElapsed}</a></td>
-                                            <td><a href="answers">{folder.days}</a></td>
+                                            <td scope="row"><a href='#/answers'>{folder.id}</a></td>
+                                            <td><a href="#/answers">{folder.folder}</a></td>
+                                            <td><a href="#/answers">{folder.totalAttempt}</a></td>
+                                            <td><a href="#/answers">{folder.published}</a></td>
+                                            <td><a href="#/answers">{folder.staffElapsed}</a></td>
+                                            <td><a href="#/answers">{folder.managerElapsed}</a></td>
+                                            <td><a href="#/answers">{folder.days}</a></td>
                                             <td>
-                                                <a href="answers">
-                                                    <a className="btn btn-primary" href="answers"><i className="bi bi-eye" style={{padding: '3px'}}></i></a>
+                                                <a href="#/answers">
+                                                    <a className="btn btn-primary" href="#/answers"><i className="bi bi-eye" style={{padding: '3px'}}></i></a>
                                                 </a>
                                             </td>
                                         </tr>   
