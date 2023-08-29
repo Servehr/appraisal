@@ -106,7 +106,7 @@ export const Appraisals = () =>
                                                     </a>
                                             </td>
                                             <td>
-                                                <a href="question">
+                                                <a href="#/question">
                                                     <a className="btn btn-primary" href="#/question"><i className="bi bi-eye" style={{padding: '3px'}}></i></a>
                                                 </a>
                                             </td>
