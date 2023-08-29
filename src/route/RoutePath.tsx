@@ -37,7 +37,7 @@ export const RoutePath = () =>
     <Routes>
         <Route path='' element={<Login />}></Route>
         <Route path='login' element={<Login />}></Route>
-        <Route path='/dashboard' element={<Dashboard />}></Route>
+        <Route path='/appraisal/#/dashboard' element={<Dashboard />}></Route>
         <Route path='/#/performance' element={<Performance />}></Route>
         <Route path='#/resource' element={<Resource />}></Route>
         <Route path='files' element={<Files />}></Route>
@@ -47,7 +47,7 @@ export const RoutePath = () =>
         <Route path='privilege' element={<Privilege />}></Route>
         <Route path='permission' element={<Permission />}></Route>
         <Route path='questionaire' element={<Questionaire />}></Route>
-        <Route path='/questionaire' element={<Questionaire />}></Route>
+        <Route path='/appraisal/#/questionaire' element={<Questionaire />}></Route>
         <Route path='questions' element={<Questions />}></Route>
         <Route path='report' element={<Report />}></Route>
         <Route path='goal' element={<Goal />}></Route>
