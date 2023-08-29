@@ -1,0 +1,22 @@
+.rating:hover {
+    background-color: 'red'
+}
+
+.wrapper {
+	display: flex;
+	overflow-x: scroll;
+    overflow-y: hidden;
+    background-color: aquamarine;
+}
+.wrapper::-webkit-scrollbar {
+	width: 0px;
+    color: red;
+}
+
+.wrapper .item {
+	min-width: 110px;
+	padding: 10px;
+	text-align: center;
+	background-color: white;
+	margin-right: 2px;
+}

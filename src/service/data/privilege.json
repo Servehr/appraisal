@@ -1,0 +1,14 @@
+{
+   "right": [
+       { "id": 1, "text": "Dashboard" },
+       { "id": 2, "text": "Management", "children": ["user", "company", "department", "role", "privilege"] },
+       { "id": 3, "text": "Performance" },
+       { "id": 4, "text": "resource" },
+       { "id": 5, "text": "Receptionist" },
+       { "id": 6, "text": "metric", "children": ["question", "answers"] }
+    ], 
+    "flyOut" : [
+        { "menu": "Edit Privilege", "target": "#editPrivilege", "icon": "check2-square" },
+        { "menu": "Delete Privilege", "target": "#deletePrivilege", "icon": "trash" }
+    ]
+}

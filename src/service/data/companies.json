@@ -1,0 +1,18 @@
+{
+    "companies": [
+        { "id": 1, "text": "Unilever" },
+        { "id": 2, "text": "Home Made" },
+        { "id": 3, "text": "TVest" }
+     ],
+     "companiesWith": [
+        { "id": 1, "text": "Unilever" , "branchManager": "Augustine Jacob", "department": 4 , "staff": 11 , "about": "If you are utilising persist within your dynamically added model, and the configured storage engine is" },
+        { "id": 2, "text": "Home Made" , "branchManager": "Julius Andrew", "department": 8 , "staff": 20 , "about": "within your dynamically added model"},
+        { "id": 3, "text": "TVest" , "branchManager": "Richard Olive", "department": 6 , "staff": 10 , "about": "Its very great to have you in my team" },
+        { "id": 4, "text": "Mac Millan" , "branchManager": "Basit Kehinde", "department": 6 , "staff": 9, "about": "within your dynamically added model" },
+        { "id": 5, "text": "Bournvita" , "branchManager": "Kelechi Emenike", "department": 2, "staff": 21 , "about": "To have you in my team, within your dynamically added model," }
+     ],
+     "flyOut" : [
+         { "menu": "Edit Company", "target": "#editCompany" },
+         { "menu": "Disable Company", "target": "#disableCompany" }
+     ]
+}

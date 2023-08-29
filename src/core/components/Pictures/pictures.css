@@ -1,0 +1,16 @@
+.circle {
+    border-radius: 50%;
+}
+.rectangle {
+    border-radius: 3px;
+}
+.cirleWithShadow {
+    border-radius: 50%;
+    box-shadow: 0rex;
+}
+.rectangleWithShadow {
+    border-radius: 3px;
+}
+.center {
+    margin: auto;
+}

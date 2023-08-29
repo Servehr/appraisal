@@ -1,0 +1,20 @@
+{
+    "student": [
+        {
+            "firstname": "Aminat",
+            "surname": "Kolade"
+         },
+         {
+            "firstname": "Ugochukwu",
+            "surname": "Ikenna"
+         },
+         {
+            "firstname": "Uthman",
+            "surname": "Aminu"
+         }
+    ], 
+    "user" : {
+        "email": "hjimoh@bcodestech.com",
+        "password": "Great"
+    }
+}

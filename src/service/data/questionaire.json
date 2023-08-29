@@ -1,0 +1,107 @@
+{
+    "questions": [
+        { "id": 1, "text": "Communal Report", "files": 41, "paper": 
+            [
+                {"id": 1, "question": "are you having challenge in your carrying out your task" },
+                {"id": 2, "question": "how you doing" },
+                {"id": 3, "question": "tell us about your team work" },
+                {"id": 4, "question": "do you need assistance in any area" },
+                {"id": 5, "question": "whats your limitation in achieving your tasks" }
+            ]  
+        },
+        { "id": 2, "text": "Evaluation", "files": 9, "paper": 
+            [
+            {"id": 1, "question": "are you having challenge in your carrying out your task" },
+            {"id": 2, "question": "how you doing" },
+            {"id": 3, "question": "tell us about your team work" },
+            {"id": 4, "question": "do you need assistance in any area" },
+            {"id": 5, "question": "whats your limitation in achieving your tasks" }
+            ]  
+        },
+        { "id": 3, "text": "Interactive Session", "files": 4, "paper": 
+            [
+                {"id": 1, "question": "are you having challenge in your carrying out your task" },
+                {"id": 2, "question": "how you doing" },
+                {"id": 3, "question": "tell us about your team work" },
+                {"id": 4, "question": "do you need assistance in any area" },
+                {"id": 5, "question": "whats your limitation in achieving your tasks" }
+            ]  
+        },
+        { "id": 4, "text": "Evidence", "files": 7, "paper": 
+            [
+                {"id": 1, "question": "are you having challenge in your carrying out your task" },
+                {"id": 2, "question": "how you doing" },
+                {"id": 3, "question": "tell us about your team work" },
+                {"id": 4, "question": "do you need assistance in any area" },
+                {"id": 5, "question": "whats your limitation in achieving your tasks" }
+            ]  
+        },
+        { "id": 5, "text": "League", "files": 5, "paper": 
+            [
+                {"id": 1, "question": "are you having challenge in your carrying out your task" },
+                {"id": 2, "question": "how you doing" },
+                {"id": 3, "question": "tell us about your team work" },
+                {"id": 4, "question": "do you need assistance in any area" },
+                {"id": 5, "question": "whats your limitation in achieving your tasks" }
+            ]  
+        },
+        { "id": 6, "text": "Mental State", "files": 11, "paper": 
+            [
+                {"id": 1, "question": "are you having challenge in your carrying out your task" },
+                {"id": 2, "question": "how you doing" },
+                {"id": 3, "question": "tell us about your team work" },
+                {"id": 4, "question": "do you need assistance in any area" },
+                {"id": 5, "question": "whats your limitation in achieving your tasks" }
+            ]  
+        },
+        { "id": 8, "text": "Team Work", "files": 2, "paper": 
+            [
+                {"id": 1, "question": "are you having challenge in your carrying out your task" },
+                {"id": 2, "question": "how you doing" },
+                {"id": 3, "question": "tell us about your team work" },
+                {"id": 4, "question": "do you need assistance in any area" },
+                {"id": 5, "question": "whats your limitation in achieving your tasks" }
+            ]  
+        },
+        { "id": 9, "text": "Challenges", "files": 5, "paper": 
+            [
+                {"id": 1, "question": "are you having challenge in your carrying out your task" },
+                {"id": 2, "question": "how you doing" },
+                {"id": 3, "question": "tell us about your team work" },
+                {"id": 4, "question": "do you need assistance in any area" },
+                {"id": 5, "question": "whats your limitation in achieving your tasks" }
+            ]  
+        },
+        { "id": 10, "text": "Man Power", "files": 11, "paper": 
+            [
+                {"id": 1, "question": "are you having challenge in your carrying out your task" },
+                {"id": 2, "question": "how you doing" },
+                {"id": 3, "question": "tell us about your team work" },
+                {"id": 4, "question": "do you need assistance in any area" },
+                {"id": 5, "question": "whats your limitation in achieving your tasks" }
+            ]  
+        },
+        { "id": 11, "text": "Production", "files": 3, "paper": 
+            [
+                {"id": 1, "question": "are you having challenge in your carrying out your task" },
+                {"id": 2, "question": "how you doing" },
+                {"id": 3, "question": "tell us about your team work" },
+                {"id": 4, "question": "do you need assistance in any area" },
+                {"id": 5, "question": "whats your limitation in achieving your tasks" }
+            ] 
+        },
+        { "id": 12, "text": "Effort", "files": 8, "paper": 
+            [
+                {"id": 1, "question": "are you having challenge in your carrying out your task" },
+                {"id": 2, "question": "how you doing" },
+                {"id": 3, "question": "tell us about your team work" },
+                {"id": 4, "question": "do you need assistance in any area" },
+                {"id": 5, "question": "whats your limitation in achieving your tasks" }
+            ] 
+        }
+     ],
+     "flyOut" : [
+        { "menu": "Delete Resource", "target": "#deleteQuestionaire", "icon": "trash" },
+        { "menu": "Edit Resource", "target": "#editQuestionaire", "icon": "check2-square" }
+     ]
+}

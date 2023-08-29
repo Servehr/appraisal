@@ -1,0 +1,16 @@
+{
+    "canDo": [
+        { "id": 1, "text": "Create" },
+        { "id": 2, "text": "Delete" },
+        { "id": 3, "text": "Update" },
+        { "id": 4, "text": "Read" },
+        { "id": 5, "text": "Suspend" },
+        { "id": 6, "text": "Terminate" },
+        { "id": 7, "text": "Dismiss" },
+        { "id": 8, "text": "Create" }
+     ], 
+     "flyOut" : [
+         { "menu": "Edit Permission", "target": "#editPermission", "icon": "check2-square" },
+         { "menu": "Delete Permission", "target": "#deletePermission", "icon": "trash" }
+     ]
+}

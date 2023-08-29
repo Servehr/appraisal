@@ -1,0 +1,8 @@
+{
+    "folders": [
+        { "id": 1, "folder": "Law", "totalAttempt": "12/20", "published": "11-10-2023", "staffElapsed": "11-10-2023", "managerElapsed": "21-10-2023", "days": 2 },
+        { "id": 2, "folder": "Sales & Marketing", "totalAttempt": "12/20", "published": "11-10-2023", "staffElapsed": "19-10-2023", "managerElapsed": "21-10-2023", "days": 2  },
+        { "id": 3, "folder": "HR", "totalAttempt": "12/20", "published": "11-10-2023", "staffElapsed": "20-10-2023", "managerElapsed": "21-10-2023", "days": 2  },
+        { "id": 4, "folder": "Business Development", "totalAttempt": "12/20", "published": "11-10-2023", "staffElapsed": "25-10-2023", "managerElapsed": "21-10-2023", "days": 2  }
+     ]
+}

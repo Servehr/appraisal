@@ -1,0 +1,7 @@
+.showOnHover:hover {
+    display: block;
+}
+
+.shwoMe:hover, .showOnHover:hover {
+    display: block;
+}

@@ -1,0 +1,12 @@
+{
+    "list": [
+        { "id": 1, "text": "Law", "HOD": "Ashleigh Langosh", "staffs": 33, "about": "Asynchronous then you can execute this helper function to get a handle on" },
+        { "id": 2, "text": "Sales & Marketing", "HOD": "Angus Grady", "staffs": 12, "about": "If you are utilising persist within your dynamically added model" },
+        { "id": 3, "text": "HR", "HOD": "Brandon Jacob", "staffs": 8, "about": "The configured storage engine is asynchronous then you can execute this helper function" },
+        { "id": 4, "text": "Business Development", "HOD": "Ambrose Vanseki", "staffs": 10, "about": "A place to be among others" }
+     ],
+     "flyOut" : [
+         { "menu": "Edit Department", "target": "#editDepartment" },
+         { "menu": "Disable Department", "target": "#disableDepartment" }
+     ]
+}

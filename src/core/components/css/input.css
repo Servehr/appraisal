@@ -1,0 +1,38 @@
+.noPadding {
+    padding: 0px;
+}
+.spaceUpAndDown {
+    margin: 10px 0px;
+}
+.spaceUp {
+    margin-top: 15px;
+}
+.spaceDown {
+    margin-bottom: 25px;
+}
+.redBorder {
+    border-color: red;
+    border-width: 1px;
+}
+.white {
+    color: white;
+}
+.border {
+    border: solid;
+    border-color: red;    
+}
+.redBackground {
+    background-color: red;
+}
+.greenBackground {
+    background-color: green;
+}
+.noBorder {
+    border: none;
+}
+.red {
+    color: red;
+}
+.fadedBlack {
+    color: rgb(217, 215, 215);
+}

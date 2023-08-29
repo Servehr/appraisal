@@ -1,0 +1,9 @@
+{
+    "appraise": [
+        { "id": 1, "folderName": "By-Gone", "publishedDate": "12/12/2023", "elapsedDate": "12/12/2023", "days": 8 },
+        { "id": 2, "folderName": "By-Gone", "publishedDate": "12/12/2023", "elapsedDate": "12/12/2023", "days": 8 },
+        { "id": 3, "folderName": "By-Gone", "publishedDate": "12/12/2023", "elapsedDate": "12/12/2023", "days": 8 },
+        { "id": 4, "folderName": "By-Gone", "publishedDate": "12/12/2023", "elapsedDate": "12/12/2023", "days": 8 },
+        { "id": 5, "folderName": "By-Gone", "publishedDate": "12/12/2023", "elapsedDate": "12/12/2023", "days": 8 }
+    ]
+}

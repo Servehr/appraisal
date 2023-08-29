@@ -1,0 +1,16 @@
+{
+    "list": [
+        { "id": 1, "text": "Super Admin" },
+        { "id": 2, "text": "Manager" },
+        { "id": 3, "text": "HR" },
+        { "id": 4, "text": "Security" },
+        { "id": 5, "text": "Receptionist" },
+        { "id": 6, "text": "Reviewer" },
+        { "id": 7, "text": "Analyst" },
+        { "id": 8, "text": "Operational Manager" }
+     ], 
+     "flyOut" : [
+         { "menu": "Edit User", "target": "#editRole", "icon": "check2-square" },
+         { "menu": "Delete User", "target": "#deleteRole", "icon": "trash" }
+     ]
+}

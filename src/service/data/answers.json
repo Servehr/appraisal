@@ -1,0 +1,8 @@
+{
+    "questions": [
+        { "id": 1, "firstname": "Ibrahim", "surname": "Tijani", "attemptedOn": "12-12-2023", "selfRate": "12/15", "manager": "10/15", "chat": "chat-text" },
+        { "id": 2, "firstname": "Abiola", "surname": "Marcus", "attemptedOn": "12-12-2023", "selfRate": "10/15", "manager": "08/15", "chat": "chat-text"  },
+        { "id": 3, "firstname": "Kemi", "surname": "Wasiu", "attemptedOn": "12-12-2023", "selfRate": "14/15", "manager": "06/15", "chat": "chat-text" },
+        { "id": 4, "firstname": "Mohammed", "surname": "Jamiu", "attemptedOn": "12-12-2023", "selfRate": "5/15", "manager": "05/15", "chat": "chat-text" }
+     ]
+}

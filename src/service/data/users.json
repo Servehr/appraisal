@@ -1,0 +1,51 @@
+{
+    "allUser": [
+        {
+            "id": 1,
+            "firstname": "Gbenga",
+            "surname": "Junior",
+            "company": "Milo",
+            "department": "Sales",
+            "roles": "Manager"
+         },
+         {
+            "id": 2,
+            "firstname": "Bridie",
+            "surname": "Kessler",
+            "company": "The Sun",
+            "department": "Press",
+            "roles": "HR"
+         },
+         {
+            "id": 3,
+            "firstname": "Ashleigh",
+            "surname": "Langosh",
+            "company": "Eleganza",
+            "department": "Production",
+            "roles": "Factory Worker"
+         },
+         {
+            "id": 4,
+            "firstname": "Angus",
+            "surname": "Grady",
+            "company": "Toshiba",
+            "department": "Sales",
+            "roles": "Sales Manager"
+         },
+         {
+            "id": 5,
+            "firstname": "Raheem",
+            "surname": "Lehner",
+            "company": "Busit",
+            "department": "Repair",
+            "roles": "Engineer"
+         }
+    ], 
+    "flyOut" : [
+        { "menu": "Edit User", "target": "#editUser" },
+        { "menu": "Disable User", "target": "#disableUser" },
+        { "menu": "Change Permission", "target": "#changeUserPermission" },
+        { "menu": "Change Department", "target": "#changeUserDepartment" },
+        { "menu": "Re-Assign User", "target": "#reAssign" }
+    ]
+}

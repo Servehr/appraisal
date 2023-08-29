@@ -1,0 +1,43 @@
+.alert-error {
+    background: hsl(1, 94%, 52%);
+}
+.white {
+    color: aliceblue;
+}
+.closeWhite {
+    margin-top: -15px;
+}
+.takeUp {
+    margin-top: -15px;
+}
+.close {
+    float: right;
+    font-size: 20px;
+    font-weight: bolder;
+    line-height: 18px;
+    color: #000000;
+    text-shadow: 0 1px 0 #ffffff;
+    opacity: 0.9;
+    filter: alpha(opacity=20);
+  }
+  button.close {
+    padding: 0;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    -webkit-appearance: none;
+  }
+  .alert .close {
+    position: relative;
+    top: 7px;
+    right: 5px;
+    line-height: 18px;
+    color: white;
+    font-size: medium;
+    width: 40px;
+  }
+  .alert-success 
+  {
+    background-color: #026c32;
+  }
+  

@@ -1,0 +1,58 @@
+.holder{
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 50%;
+  }
+  
+  /* Hide the default checkbox */
+  .holder input {
+    visibility: hidden;
+    cursor: pointer;
+  }
+  
+  /* Create a custom checkbox */
+  .mark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: white; 
+    border: 3px solid rgb(129, 155, 129);
+    border-radius: 50%;
+  }
+  
+  .holder:hover input ~ .mark {
+    background-color: white;
+  }
+  
+  .holder input:checked ~ .mark {
+    background-color: green;
+  }
+  
+  /* Create the mark/indicator (hidden when not checked) */
+  .mark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the mark when checked */
+  .holder input:checked ~ .mark:after {
+    display: block;
+  }
+  
+  /* Style the mark/indicator */
+  .holder .mark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+  }

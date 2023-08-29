@@ -1,0 +1,1 @@
+export const forTheStart = { count: 0 }

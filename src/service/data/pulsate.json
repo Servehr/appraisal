@@ -1,0 +1,8 @@
+{
+    "dashboardSummary": [
+        { "icon": "bank", "heading": "Companies", "figure": 59, "text": "", "color": ""},
+        { "icon": "person-fill", "heading": "Managers", "figure": 264, "text": "", "color": "white"},
+        { "icon": "diagram-3", "heading": "Departments", "figure": 32, "text": "", "color": "white"},
+        { "icon": "people", "heading": "Employees", "figure": 36, "text": "", "color": "white"}
+     ]
+}

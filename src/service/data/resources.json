@@ -1,0 +1,31 @@
+{
+    "resource": [
+        { "id": 1, "text": "Effective Communication Skills", "files": 41, "icon": "trash"},
+        { "id": 2, "text": "Tackling Competition", "files": 9, "icon": "trash" },
+        { "id": 3, "text": "Team Work and Collaboration", "files": 4, "icon": "trash" },
+        { "id": 4, "text": "Stress Management", "files": 7, "icon": "trash" },
+        { "id": 5, "text": "Writting Skills", "files": 5, "icon": "trash" },
+        { "id": 6, "text": "Maintaining Relationship", "files": 11, "icon": "trash" },
+        { "id": 7, "text": "Business Communication", "files": 3, "icon": "trash" },
+        { "id": 8, "text": "Business Development", "files": 2, "icon": "trash" },
+        { "id": 9, "text": "Report Writting", "files": 5, "icon": "trash" },
+        { "id": 10, "text": "People`s Management", "files": 11, "icon": "trash" },
+        { "id": 11, "text": "Health & Wellnes", "files": 3, "icon": "trash" },
+        { "id": 12, "text": "Importance of Rest", "files": 2, "icon": "trash" }
+     ],
+     "flyOut" : [
+        { "menu": "Delete Resource", "target": "#editResource", "icon": "check2-square" },
+        { "menu": "Edit Resource", "target": "#deleteResource", "icon": "trash" }
+     ],
+     "document": [
+        {"id": 1, "fileName": "tdBrandon", "uploadedBy": "Fedrick Francis", "pages": 12},
+        {"id": 2, "fileName": "Bridie", "uploadedBy": "Niyarn Bash", "pages": 21},
+        {"id": 3, "fileName": "Ashleigh", "uploadedBy": "Cameron Liss", "pages": 33},
+        {"id": 4, "fileName": "Angus", "uploadedBy": "Abraham Lincon", "pages": 40},
+        {"id": 5, "fileName": "Raheem", "uploadedBy": "Faith Praise", "pages": 35}
+    ],
+    "link" : [
+       { "menu": "Delete Resource", "target": "#editFile", "icon": "check2-square" },
+       { "menu": "Edit Resource", "target": "#deleteFile", "icon": "trash" }
+    ]
+}
