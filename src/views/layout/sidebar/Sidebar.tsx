@@ -4,6 +4,7 @@ import logo from '../../../../public/assets/img/card.jpg';
 import { PictureCard } from '../../../core/components/Pictures';
 import './index.css'
 import female from '../../passports/female.jpg'
+import { useNavigate } from 'react-router-dom';
 
 type properties = {
     option: boolean
@@ -11,6 +12,8 @@ type properties = {
 
 export const Sidebar = ({option}: properties) => 
 {
+  const  navigate = useNavigate()
+
   const sidebar = option ?  `sidebar showOrHide` : `sidebar`
   console.log(`Are we on: ${option}`)
   
@@ -28,7 +31,7 @@ export const Sidebar = ({option}: properties) =>
                     <div className='col-4'></div>
                 </div>
                 <li className="nav-item">
-                    <a className="nav-link collapsed" href="/dashboard">
+                    <a className="nav-link collapsed" href="dashboard">
                     <i className="bi bi-house" style={{fontSize: '14px', marginTop: '0px'}}></i>
                     <span>Dashboard</span>
                     </a>
@@ -51,7 +54,7 @@ export const Sidebar = ({option}: properties) =>
                             </a>
                         </li> */}
                         <li style={{marginLeft: '25px'}}>
-                            <a href="/company">
+                            <a href="company">
                                 <i className="bx bxs-building-house" style={{fontSize: '13px', marginTop: '1px'}}></i>
                                 <span style={{fontSize: '12px'}}>Company</span>
                             </a>
@@ -86,7 +89,7 @@ export const Sidebar = ({option}: properties) =>
                     </ul>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link collapsed" href="/performance">
+                    <a className="nav-link collapsed" href='#/' onClick={() => navigate('/performance')}>
                     <i className="ri ri-shield-star-fill" style={{fontSize: '14px', marginTop: '1px'}}></i>
                     <span>Performance</span>
                     </a>
@@ -98,7 +101,7 @@ export const Sidebar = ({option}: properties) =>
                     </a>
                 </li> */}
                 <li className="nav-item">
-                    <a className="nav-link collapsed" href="/resource">
+                    <a className="nav-link collapsed" href="#/resource">
                     <i className="bi bi-folder2-open" style={{fontSize: '14px', marginTop: '-2px'}}></i>
                     <span>Resources</span>
                     </a>
