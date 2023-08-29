@@ -194,7 +194,7 @@ export const Header = () =>
                     </li>
         
                     <li>
-                      <a className="dropdown-item d-flex align-items-center" href="profile">
+                      <a className="dropdown-item d-flex align-items-center" href="#/profile">
                         <i className="bi bi-person"></i>
                         <span>My Profile</span>
                       </a>
@@ -204,7 +204,7 @@ export const Header = () =>
                     </li>
         
                     <li>
-                      <a className="dropdown-item d-flex align-items-center" href="profile">
+                      <a className="dropdown-item d-flex align-items-center" href="#/dashboard">
                         <i className="bi bi-gear"></i>
                         <span>Settings</span>
                       </a>
@@ -214,7 +214,7 @@ export const Header = () =>
                     </li>
         
                     <li>
-                      <a className="dropdown-item d-flex align-items-center" href="pages-faq.html">
+                      <a className="dropdown-item d-flex align-items-center" href="#dashboard">
                         <i className="bi bi-question-circle"></i>
                         <span>Need Help?</span>
                       </a>
