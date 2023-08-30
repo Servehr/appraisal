@@ -122,7 +122,7 @@ export const Sidebar = ({option}: properties) =>
                             </a>
                         </li>
                         <li style={{marginLeft: '25px'}}>
-                            <a href="#/appraisals">
+                            <a href="#/answer">
                                 <i className="bi bi-file-earmark-pdf" style={{fontSize: '13px', marginTop: '2px'}}></i>
                                 <span style={{fontSize: '12px'}}>Answers</span>
                             </a>
