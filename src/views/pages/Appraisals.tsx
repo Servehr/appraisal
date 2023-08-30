@@ -101,9 +101,7 @@ export const Appraisals = () =>
                                             <td><a href="#/question">{folder.elapsedDate}</a></td>
                                             <td><a href="#/question">{folder.days}</a></td>
                                             <td>
-                                                    <a href="#/answers">
-                                                        <a className="" href="/#/conversation"><i className="bi bi-chat-text" style={{padding: '3px'}}></i> 23</a>
-                                                    </a>
+                                                  <a className="" href="#/conversation"><i className="bi bi-chat-text" style={{padding: '3px'}}></i> 23</a>
                                             </td>
                                             <td>
                                                 <a href="#/question">
