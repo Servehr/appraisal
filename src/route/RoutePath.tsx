@@ -54,7 +54,7 @@ export const RoutePath = () =>
         <Route path='task' element={<Task />}></Route>
         <Route path='forgot' element={<Forgot />}></Route>
         <Route path='reset' element={<Reset />}></Route>
-        <Route path='appraisal' element={<Appraisal />}></Route>
+        <Route path='answer' element={<Appraisal />}></Route>
         <Route path='profile' element={<Profile />}></Route>
         <Route path='appraisals' element={<Appraisals />}></Route>
         <Route path='by-department' element={<AnswersByDepartment />}></Route>

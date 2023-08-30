@@ -102,10 +102,8 @@ export const Performance = () =>
                                             <td><a href="#/answers">{folder.managerElapsed}</a></td>
                                             <td><a href="#/answers">{folder.days}</a></td>
                                             <td>
-                                                <a href="#/answers">
-                                                    <a className="btn btn-primary" href="#/answers"><i className="bi bi-eye" style={{padding: '3px'}}></i></a>
-                                                </a>
-                                            </td>
+                                                <a className="btn btn-primary" href="#/answers"><i className="bi bi-eye" style={{padding: '3px'}}></i></a>
+                                             </td>
                                         </tr>   
                                     })                                 
                                 }
