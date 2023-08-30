@@ -70,17 +70,10 @@ export const Resource = () =>
                             resources.resource.map((rsur: any, index: number) => {
                                 let clax:string = `bi bi-${rsur.icon} col-md-1 float-end`
                                 return <div className="col-6 col-md-3" style={{paddingRight: '8px', paddingLeft: '8px', position: 'relative'}} key={index}>
-                                            <a href='#/files'>
+                                            <a href='#/files' className='col-12'>
                                                 <div className="card info-card revenue-card flex">
                                                     <div className="card-body">
-                                                        <h4 className="card-title" style={{marginBottom:'5px', fontSize: '14px'}}>{rsur.text}</h4>
-                                                        {
-                                                            resources.flyOut.map((action, index) => {
-                                                                let clax:string = `bi bi-${action.icon} col-md-1 float-end`
-                                                                return <a href='#'><i className={clax} data-bs-toggle="modal" data-bs-target={action.target} style={{fontSize: '15px', cursor: 'pointer', 'marginLeft': '12px'}}></i></a>
-                                                            })
-                                                        }
-                
+                                                        <h4 className="card-title" style={{marginBottom:'5px', fontSize: '14px'}}>{rsur.text}</h4>                
                                                         <div className="d-flex justify-content-between">
                                                             <div className="card-icon rounded-circle d-flex align-items-center justify-content-center">
                                                                 <i className="bi bi-folder2-open" style={{fontSize: '22px'}}></i>
@@ -92,6 +85,14 @@ export const Resource = () =>
                                                     </div>
                                                 </div>
                                             </a>
+                                            <div className='col-12'> 
+                                                {
+                                                    resources.flyOut.map((action, index) => {
+                                                            let clax:string = `bi bi-${action.icon} col-md-1 float-end`
+                                                            return <i className={clax} data-bs-toggle="modal" data-bs-target={action.target} style={{fontSize: '15px', cursor: 'pointer', 'marginLeft': '12px'}}></i>
+                                                        })
+                                                }
+                                            </div>
                                         </div>
                             })
                         }
