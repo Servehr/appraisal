@@ -70,21 +70,23 @@ export const Resource = () =>
                             resources.resource.map((rsur: any, index: number) => {
                                 let clax:string = `bi bi-${rsur.icon} col-md-1 float-end`
                                 return <div className="col-6 col-md-3" style={{paddingRight: '8px', paddingLeft: '8px', position: 'relative'}} key={index}>
-                                            <a href='#/files' className='col-12'>
-                                                <div className="card info-card revenue-card flex">
-                                                    <div className="card-body">
-                                                        <h4 className="card-title" style={{marginBottom:'5px', fontSize: '14px'}}>{rsur.text}</h4>                
-                                                        <div className="d-flex justify-content-between">
-                                                            <div className="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                                                                <i className="bi bi-folder2-open" style={{fontSize: '22px'}}></i>
-                                                            </div>
-                                                            <div className="ps-3 mt-3">
-                                                                <div className='col-12' style={{fontSize: '27px'}}>{rsur.files}</div>
+                                            <div className='row'>                                                    
+                                                <a href='#/files' className='col-12'>
+                                                    <div className="card info-card revenue-card flex">
+                                                        <div className="card-body">
+                                                            <h4 className="card-title" style={{marginBottom:'5px', fontSize: '14px'}}>{rsur.text}</h4>                
+                                                            <div className="d-flex justify-content-between">
+                                                                <div className="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                                                                    <i className="bi bi-folder2-open" style={{fontSize: '22px'}}></i>
+                                                                </div>
+                                                                <div className="ps-3 mt-3">
+                                                                    <div className='col-12' style={{fontSize: '27px'}}>{rsur.files}</div>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                            </a>
+                                                </a>    
+                                            </div>
                                             <div className='row'> 
                                                 {
                                                     resources.flyOut.map((action, index) => {
