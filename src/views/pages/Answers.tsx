@@ -81,14 +81,10 @@ export const Answers = () =>
                                                 <td><a href="#/question">{question.selfRate}</a></td>
                                                 <td><a href="#/question" data-bs-toggle="modal" data-bs-target="#changeRating">{question.manager}  <i className="bi bi-check2-square" style={{color: 'green', padding: '3px'}}></i></a></td>
                                                 <td>
-                                                    <a href="#/answers">
-                                                        <a className="" href="conversation"><i className="bi bi-chat-text" style={{padding: '3px'}}></i> 23</a>
-                                                    </a>
+                                                    <a className="" href="#/conversation"><i className="bi bi-chat-text" style={{padding: '3px'}}></i> 23</a>
                                                 </td>
                                                 <td>
-                                                    <a href="#/answers">
-                                                        <a className="btn btn-primary" href="#/question"><i className="bi bi-eye" style={{padding: '3px'}}></i></a>
-                                                    </a>
+                                                    <a className="btn btn-primary" href="#/question"><i className="bi bi-eye" style={{padding: '3px'}}></i></a>
                                                 </td>
                                             </tr>
                                             
