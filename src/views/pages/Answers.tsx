@@ -73,21 +73,21 @@ export const Answers = () =>
                                 {
                                         answers.questions.map((question, index) => {
                                             return <tr>
-                                                <td scope="row"><a href=''>{question.id}</a></td>
+                                                <td scope="row"><a href='#/question'>{question.id}</a></td>
                                                 <td><PictureCard width={25} height={25} radius={'circle'} padding={0} image={female}></PictureCard></td>
-                                                <td><a href="question">{question.firstname}</a></td>
-                                                <td><a href="question">{question.surname}</a></td>
-                                                <td><a href="question">{question.attemptedOn}</a></td>
-                                                <td><a href="question">{question.selfRate}</a></td>
-                                                <td><a href="#/" data-bs-toggle="modal" data-bs-target="#changeRating">{question.manager}  <i className="bi bi-check2-square" style={{color: 'green', padding: '3px'}}></i></a></td>
+                                                <td><a href="#/question">{question.firstname}</a></td>
+                                                <td><a href="#/question">{question.surname}</a></td>
+                                                <td><a href="#/question">{question.attemptedOn}</a></td>
+                                                <td><a href="#/question">{question.selfRate}</a></td>
+                                                <td><a href="#/question" data-bs-toggle="modal" data-bs-target="#changeRating">{question.manager}  <i className="bi bi-check2-square" style={{color: 'green', padding: '3px'}}></i></a></td>
                                                 <td>
-                                                    <a href="answers">
+                                                    <a href="#/answers">
                                                         <a className="" href="conversation"><i className="bi bi-chat-text" style={{padding: '3px'}}></i> 23</a>
                                                     </a>
                                                 </td>
                                                 <td>
-                                                    <a href="answers">
-                                                        <a className="btn btn-primary" href="question"><i className="bi bi-eye" style={{padding: '3px'}}></i></a>
+                                                    <a href="#/answers">
+                                                        <a className="btn btn-primary" href="#/question"><i className="bi bi-eye" style={{padding: '3px'}}></i></a>
                                                     </a>
                                                 </td>
                                             </tr>
