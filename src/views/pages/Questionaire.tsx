@@ -74,7 +74,7 @@ export const Questionaire = () =>
                                                           {
                                                                 questionaire.flyOut.map((action, index) => {
                                                                     let clax:string = `bi bi-${action.icon} col-md-1 float-end`
-                                                                    return <i className={clax} data-bs-toggle="modal" data-bs-target={action.target} style={{fontSize: '15px', cursor: 'pointer', 'marginLeft': '12px', top: 0, right: 0}}></i>
+                                                                    return <i className={clax} data-bs-toggle="modal" data-bs-target={action.target} style={{fontSize: '15px', cursor: 'pointer', 'marginLeft': '12px', top: 0, right: 0, zIndex: '1000px'}}></i>
                                                                 })
                                                           }
                   
