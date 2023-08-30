@@ -85,7 +85,7 @@ export const Resource = () =>
                                                     </div>
                                                 </div>
                                             </a>
-                                            <div className='col-12'> 
+                                            <div className='row'> 
                                                 {
                                                     resources.flyOut.map((action, index) => {
                                                             let clax:string = `bi bi-${action.icon} col-md-1 float-end`
