@@ -96,17 +96,17 @@ export const Appraisals = () =>
                                     appraisal.appraise.map((folder, index) => {
                                         return  <tr key={index}>
                                             <td scope="row"><a href='#/question'>{folder.id}</a></td>
-                                            <td><a href="#/question">{folder.folderName}</a></td>
+                                            <td><a href="/#/question">{folder.folderName}</a></td>
                                             <td><a href="#/question">{folder.publishedDate}</a></td>
                                             <td><a href="#/question">{folder.elapsedDate}</a></td>
                                             <td><a href="#/question">{folder.days}</a></td>
                                             <td>
                                                     <a href="#/answers">
-                                                        <a className="" href="#/conversation"><i className="bi bi-chat-text" style={{padding: '3px'}}></i> 23</a>
+                                                        <a className="" href="/#/conversation"><i className="bi bi-chat-text" style={{padding: '3px'}}></i> 23</a>
                                                     </a>
                                             </td>
                                             <td>
-                                                <a href="#/question">
+                                                <a href="/#/question">
                                                     <a className="btn btn-primary" href="#/question"><i className="bi bi-eye" style={{padding: '3px'}}></i></a>
                                                 </a>
                                             </td>
