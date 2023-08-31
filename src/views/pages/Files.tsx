@@ -88,7 +88,7 @@ export const Files = () =>
                                                     {
                                                         resources.link.map((action, index) => {
                                                             let clax:string = `bi bi-${action.icon} col-md-1 float-end`
-                                                            return <a href='#/'><i className={clax} data-bs-toggle="modal" data-bs-target={action.target} style={{fontSize: '15px', cursor: 'pointer', 'marginLeft': '25px' }}></i></a>
+                                                            return <i className={clax} data-bs-toggle="modal" data-bs-target={action.target} style={{fontSize: '15px', cursor: 'pointer', 'marginLeft': '25px' }}></i>
                                                         })
                                                     }
                                                 </td>
