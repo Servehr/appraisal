@@ -149,7 +149,7 @@ export const Sidebar = ({option}: properties) =>
                     </a>
                 </li> */}
                 <li className="nav-item">
-                    <a className="nav-link collapsed" href="/">
+                    <a className="nav-link collapsed" href="#/">
                     <i className="bi bi-power" style={{fontSize: '14px', marginTop: '-2px'}}></i>
                     <span>Logout</span>
                     </a>

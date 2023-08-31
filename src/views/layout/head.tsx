@@ -14,7 +14,7 @@ export const Head = () =>
                         </a>
                     </span>
                     
-                    <a className="navbar-brand" href="index.html">Avenxo</a>
+                    <a className="navbar-brand" href="#/">Avenxo</a>
 
                     <div className="toolbar-icon-bg hidden-xs" id="toolbar-search">
                         <div className="input-group">

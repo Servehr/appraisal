@@ -39,7 +39,7 @@ export const CreateFiles = () =>
                                 <ButtonDefault msg={'Disable'} color={'secondary'} text={'CANCEL'} dismiss={true} position={''} size={''} state={''} />
                             </div>
                             <div className='col'>
-                                <ButtonDefault msg={'Disable'} color={'danger'} text={'CREATE'} dismiss={false} position={''} size={''} state={''} />
+                                <ButtonDefault msg={'Disable'} color={'primary'} text={'CREATE'} dismiss={false} position={''} size={''} state={''} />
                             </div>
                         </div>
                     </div>

@@ -34,12 +34,12 @@ export const Roles = () =>
                 </div>
                 <div className="col-sm-4 flex">
                     <div className="pagetitle float-end">
-                        <nav>
+                        {/* <nav>
                             <ol className="breadcrumb">
                                 <li className="breadcrumb-item"><a href="index.html">Home</a></li>
                                 <li className="breadcrumb-item active">Roles</li>
                             </ol>
-                        </nav>
+                        </nav> */}
                     </div>
                 </div>
             </div>
@@ -47,8 +47,8 @@ export const Roles = () =>
             <div className="row mb-5" style={{paddingRight: '8px', paddingLeft: '10px'}}>
                 <div className="col-2">
                     <div className="col">
-                        <i className="bi bi-file-plus-fill float-start" data-bs-toggle="modal" data-bs-target="#createRole" style={{fontSize: '34px', color: 'blue', marginTop: '1px', cursor: 'pointer', float: 'right'}}></i>
-                        <i className="bi bi-file-plus-fill float-start" data-bs-toggle="modal" data-bs-target="#assignRolesToUser" style={{fontSize: '34px', color: 'green', marginTop: '1px', cursor: 'pointer', float: 'left'}}></i>
+                        <i className="bi bi-file-plus-fill float-start" data-bs-toggle="modal" data-bs-target="#createRole" style={{fontSize: '34px', color: '#444444', marginTop: '1px', cursor: 'pointer', float: 'right'}}></i>
+                        <i className="bi bi-file-plus-fill float-start" data-bs-toggle="modal" data-bs-target="#assignRolesToUser" style={{fontSize: '34px', color: '#7f7c7c', marginTop: '1px', cursor: 'pointer', float: 'left'}}></i>
                     </div>
                 </div>            
                 <div className="col-8 px-3">

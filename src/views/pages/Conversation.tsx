@@ -36,8 +36,8 @@ export const Conversation = () =>
                     <div className="pagetitle float-end">
                         <nav>
                             <ol className="breadcrumb">
-                                <li className="breadcrumb-item"><a href="index.html">Home</a></li>
-                                <li className="breadcrumb-item active">Questions</li>
+                                <li className="breadcrumb-item"><a href='#/answers'>Answers</a></li>
+                                <li className="breadcrumb-item active"><a href='#/conversation'>Conversation</a></li>
                             </ol>
                         </nav>
                     </div>

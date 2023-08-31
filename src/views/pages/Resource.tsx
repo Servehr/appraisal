@@ -40,12 +40,12 @@ export const Resource = () =>
                 </div>
                 <div className="col-sm-4 flex">
                     <div className="pagetitle float-end">
-                        <nav>
+                        {/* <nav>
                             <ol className="breadcrumb">
                                 <li className="breadcrumb-item"><a href="index.html">Home</a></li>
                                 <li className="breadcrumb-item active">Resources</li>
                             </ol>
-                        </nav>
+                        </nav> */}
                     </div>
                 </div>
             </div>

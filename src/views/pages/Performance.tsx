@@ -36,14 +36,14 @@ export const Performance = () =>
                 <div className="col-sm-4">
                 </div>
                 <div className="col-sm-4 flex">
-                    <div className="pagetitle float-end">
+                    {/* <div className="pagetitle float-end">
                         <nav>
                             <ol className="breadcrumb">
-                                <li className="breadcrumb-item"><a href="index.html">Home</a></li>
-                                <li className="breadcrumb-item active">Performance</li>
+                                <li className="breadcrumb-item"><a href='#/performance'>Performance</a></li>
+                                <li className="breadcrumb-item active"><a href='#/dashboard'>Dashboard</a></li>
                             </ol>
                         </nav>
-                    </div>
+                    </div> */}
                 </div>
             </div>
 

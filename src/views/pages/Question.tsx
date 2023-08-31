@@ -33,8 +33,8 @@ export const Question = () =>
                     <div className="pagetitle float-end">
                         <nav>
                             <ol className="breadcrumb">
-                                <li className="breadcrumb-item"><a href="index.html">Home</a></li>
-                                <li className="breadcrumb-item active">Questions</li>
+                                <li className="breadcrumb-item"><a href="#/answers">Appraisal</a></li>
+                                <li className="breadcrumb-item active">Question</li>
                             </ol>
                         </nav>
                     </div>

@@ -1,6 +1,9 @@
 import axios from 'axios'
 
-const client = axios.create({ baseURL: 'http://localost:3000'})
+const BASE_URL = process.env.REACT_APP_BASE_URL;
+const ENV = process.env.REACT_APP_ENV;
+
+const client = axios.create({ baseURL: BASE_URL})
 
 export const request = ({ ...options }) => 
 {

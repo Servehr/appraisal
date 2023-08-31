@@ -36,8 +36,8 @@ export const Files = () =>
                     <div className="pagetitle float-end">
                         <nav>
                             <ol className="breadcrumb">
-                                <li className="breadcrumb-item"><a href="index.html">Home</a></li>
-                                <li className="breadcrumb-item active">Files</li>
+                                <li className="breadcrumb-item"><a href='#/questionaire'>Questionaires</a></li>
+                                <li className="breadcrumb-item active"><a href='#/files'>Files</a></li>
                             </ol>
                         </nav>
                     </div>

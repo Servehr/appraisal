@@ -18,7 +18,7 @@ export const EditFiles = () =>
             <div className="modal-dialog">
               <div className="modal-content">
                 <div className="modal-header">
-                  <h5 className="modal-title">Upload Documents</h5>
+                  <h5 className="modal-title">Edit Document</h5>
                   <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div className="modal-body">
@@ -39,7 +39,7 @@ export const EditFiles = () =>
                             <ButtonDefault msg={'Disable'} color={'secondary'} text={'CANCEL'} dismiss={true} position={''} size={''} state={''} />
                         </div>
                         <div className='col'>
-                            <ButtonDefault msg={'Disable'} color={'danger'} text={'CHANGE'} dismiss={false} position={''} size={''} state={''} />
+                            <ButtonDefault msg={'Disable'} color={'primary'} text={'CHANGE'} dismiss={false} position={''} size={''} state={''} />
                         </div>
                     </div>
                 </div>

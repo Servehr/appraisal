@@ -37,7 +37,7 @@ export const ChangeRating = () =>
                                 <ButtonDefault msg={'Disable'} color={'secondary'} text={'CANCEL'} dismiss={true} position={''} size={''} state={''} />
                             </div>
                             <div className='col'>
-                                <ButtonDefault msg={'Disable'} color={'danger'} text={'CHANGE'} dismiss={false} position={''} size={''} state={''} />
+                                <ButtonDefault msg={'Disable'} color={'primary'} text={'CHANGE'} dismiss={false} position={''} size={''} state={''} />
                             </div>
                         </div>
                     </div>
