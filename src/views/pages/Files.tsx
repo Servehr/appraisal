@@ -80,9 +80,7 @@ export const Files = () =>
                                                 <td>{file.uploadedBy}</td>
                                                 <td>{file.pages}</td>
                                                 <td>
-                                                    <a href='#/'>
-                                                        <i className='bi bi-download' style={{fontSize: '15px', cursor: 'pointer', 'marginLeft': '12px'}}></i>
-                                                    </a>
+                                                    <i className='bi bi-download' onClick={() => alert("Download Begins")} style={{fontSize: '15px', cursor: 'pointer', 'marginLeft': '12px'}}></i>
                                                 </td>
                                                 <td>
                                                     {
