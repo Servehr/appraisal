@@ -72,7 +72,7 @@ export const Resource = () =>
                                 return <div className="col-6 col-md-3 mb-3" style={{paddingRight: '8px', paddingLeft: '8px', position: 'relative'}} key={index}>
                                             <div className='d-flex row'>
                                                 
-                                            <a href='files' className='col-11 mx-2'>
+                                            <a href='#/files' className='col-11 mx-2'>
                                                 <div className="card info-card revenue-card flex" style={{marginBottom: '0px'}}>
                                                     <div className="card-body">
                                                         <h4 className="card-title" style={{marginBottom:'5px', fontSize: '14px'}}>{rsur.text}</h4>
